@@ -22,7 +22,7 @@ client.once('ready', () => {
 client.on('message', message => {
   if (message.channel.id !== process.env.PRONOUNS || message.author.bot) return;
 
-  const user = message.author;
+  const user = message.member;
   const roles = user.roles;
   const args = message.content.toLowerCase().trim().split(/ +/);
   const reply = "All set! I've got you down as ";
