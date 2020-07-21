@@ -1,0 +1,22 @@
+{
+  "name": "jsmo_node",
+  "version": "1.0.0",
+  "description": "Discord bot for Jacob Geller's Discord community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grahhhhhhham/jsmo_node.git"
+  },
+  "author": "Graham Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grahhhhhhham/jsmo_node/issues"
+  },
+  "homepage": "https://github.com/grahhhhhhham/jsmo_node#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
