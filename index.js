@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+let channel;
+
 const pronouns = {
   "he/him": process.env.HEHIM,
   "she/her": process.env.SHEHER,
@@ -13,7 +15,7 @@ const pronouns = {
 
 client.once('ready', () => {
   console.log('Ready!');
-  const channel = client.channels.cache.get(process.env.PRONOUNS);
+  channel = client.channels.cache.get(process.env.PRONOUNS);
 });
 
 
